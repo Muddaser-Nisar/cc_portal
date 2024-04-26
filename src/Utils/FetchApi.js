@@ -12,7 +12,7 @@ const fetchGet = async (token, endPoint) => {
     let jsonResponse = await response.json();
     return jsonResponse;
   } catch (error) {
-    console.log("fetchGet error: " + error);
+    console.log("fetchGet error:::::: " + error);
   }
 };
 
